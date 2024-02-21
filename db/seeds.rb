@@ -7,8 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-Restaurant.create(name: 'Le Baguette', address: 'Paris', category: 'french')
-Restaurant.create(name: 'Les Baguettes', address: 'Hong Kong', category: 'chinese')
-Restaurant.create(name: 'La Baguetta', address: 'Rome', category: 'italian')
-Restaurant.create(name: 'La Baguet', address: 'Bruxelles', category: 'belgian')
-Restaurant.create(name: 'Le Palais OOOOOOh', address: 'Les Ulis', category: 'japanese')
+Restaurant.destroy_all
+
+Restaurant.create(name: 'Le Baguette', address: 'Paris', category: 'french', phone_number: '12901921382')
+Restaurant.create(name: 'Les Baguettes', address: 'Hong Kong', category: 'chinese', phone_number: '12901921382')
+Restaurant.create(name: 'La Baguetta', address: 'Rome', category: 'italian', phone_number: '12901921382')
+Restaurant.create(name: 'La Baguet', address: 'Bruxelles', category: 'belgian', phone_number: '12901921382')
+Restaurant.create(name: 'Le Palais OOOOOOh', address: 'Les Ulis', category: 'japanese', phone_number: '12901921382')
