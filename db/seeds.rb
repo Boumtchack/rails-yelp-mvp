@@ -14,3 +14,4 @@ Restaurant.create(name: 'Les Baguettes', address: 'Hong Kong', category: 'chines
 Restaurant.create(name: 'La Baguetta', address: 'Rome', category: 'italian', phone_number: '12901921382')
 Restaurant.create(name: 'La Baguet', address: 'Bruxelles', category: 'belgian', phone_number: '12901921382')
 Restaurant.create(name: 'Le Palais OOOOOOh', address: 'Les Ulis', category: 'japanese', phone_number: '12901921382')
+

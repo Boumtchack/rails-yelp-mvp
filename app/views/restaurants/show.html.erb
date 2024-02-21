@@ -5,16 +5,14 @@
 <h2><%= @restaurant.phone_number %></h2>
 <div>
   <ul>
-    <p>reviews:</p>
     <% @restaurant.reviews.each do |review|%>
    <li>
-    <p>rating</p>
     <%= review.rating %>
-    <p>content</p>
     <%= review.content %>
    </li>
    <% end %>
   </ul>
 </div>
 
+<p><%= link_to "ajouter une review", new_restaurant_review_path(@restaurant) %></p>
 <p><%= link_to "retour au menu", restaurants_path %></p>
